@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Scalable Image Import System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Scalable Image Import System</h1>
+    <div class="card">
+      <h2>Import from Google Drive</h2>
+      <form id="importForm">
+        <label>Public Google Drive Folder URL</label>
+        <input id="folderUrl" type="text" placeholder="https://drive.google.com/drive/folders/..." required />
+        <button type="submit">Start Import</button>
+      </form>
+      <pre id="importResult"></pre>
+    </div>
+
+    <div class="card">
+      <h2>Imported Images</h2>
+      <button id="refreshBtn">Refresh</button>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>File type</th>
+            <th>Size</th>
+            <th>Storage</th>
+            <th>Import</th>
+          </tr>
+        </thead>
+        <tbody id="imagesBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
