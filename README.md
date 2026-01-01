@@ -8,7 +8,7 @@ A cloud-ready, multi-service backend application that imports images from a **pu
 
 **Deployment Platform:** AWS EC2 (Dockerized Multi-Service Deployment)
 
-**Working Site URL:** [http://13.126.82.177](http://13.126.82.177)
+**Working Site URL:** [http://13.201.224.10:8080/](http://13.201.224.10:8080/)
 
 **GitHub Repository:** [https://github.com/sushant1427/scalable-image-import-system](https://github.com/sushant1427/scalable-image-import-system)
 
