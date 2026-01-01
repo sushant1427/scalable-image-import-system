@@ -35,7 +35,7 @@ services:
       S3_SECRET_KEY: ${S3_SECRET_KEY:-minioadmin}
       S3_BUCKET: ${S3_BUCKET:-images}
       S3_REGION: ${S3_REGION:-us-east-1}
-      S3_PUBLIC_BASE_URL: ${S3_PUBLIC_BASE_URL:-http://localhost:9000/images}
+      S3_PUBLIC_BASE_URL: ${S3_PUBLIC_BASE_URL:-http://13.201.224.10/:9000/images}
     depends_on:
       db:
         condition: service_healthy
